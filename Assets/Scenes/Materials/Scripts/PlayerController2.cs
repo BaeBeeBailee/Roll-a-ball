@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
     
     
 
-public class PlayerController : MonoBehaviour {
+public class PlayerController2 : MonoBehaviour {
 
     public float speed;
     public Text countText; 
@@ -60,6 +60,7 @@ public class PlayerController : MonoBehaviour {
              score++;
              SetCountText (); 
          }  
+
          if(score==12)
          {
             SceneManager.LoadScene(1);
@@ -89,12 +90,10 @@ public class PlayerController : MonoBehaviour {
     {
         scoreText.text = "Score: " + score.ToString (); 
         countText.text = "Count: " + count.ToString (); 
-        if (score >= 20)
+        if (score >= 8)
 
         {
            winText.text = "You Win!";
         }
     }
 }
-
-
