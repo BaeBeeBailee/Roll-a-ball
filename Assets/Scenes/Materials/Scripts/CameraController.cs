@@ -9,11 +9,15 @@ public class CameraController : MonoBehaviour {
     private Vector3 offset; 
 
     // Start is called before the first frame update
-    void Start() {
-        offset = transform.position - player.transform.position;
+    void Start() 
+    {
+        if(player!=null)
+            offset = transform.position - player.transform.position;
     }
 
-    void LateUpdate() {
+    void LateUpdate() 
+    {
+      if(player!=null)
         transform.position = player.transform.position + offset;
     }
 }

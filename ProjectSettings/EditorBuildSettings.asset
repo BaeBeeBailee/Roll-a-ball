@@ -11,7 +11,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Minigame.unity
     guid: 18425e970019e5740a4e52f5412eaf51
-  - enabled: 1
+  - enabled: 0
     path: Assets/Blaylock_Bailee_DIG3480_Tutorial1.unity
     guid: 320f73030b8699f4eb3e25e50326aa6d
+  - enabled: 1
+    path: Assets/Scenes/Blaylock_Bailee_DIG3480_RollABallChallenge_Scene1.unity
+    guid: 410a2d8bdfed5944082a718817cbdcfb
+  - enabled: 1
+    path: Assets/Scenes/Scene2_Roll_a_ball_challenge.unity
+    guid: dee1adf1c1c921447a6d2f7f7fea5d01
   m_configObjects: {}
